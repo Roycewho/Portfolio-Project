@@ -44,9 +44,11 @@ a:hover {
     display: block;
     margin-right: auto;
     color: white;
+    font-family: 'Bree Serif', serif;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
+  font-family: 'Bree Serif', serif;
 }
 .nav a {
   transition: all .5s;
@@ -61,6 +63,7 @@ header {
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
+  font-family: 'Bree Serif', serif;
 
 }
 header {
@@ -93,11 +96,13 @@ header .profile-image:hover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
+  text-align: center;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  font-family: 'Bree Serif', serif;
+ 
 }
 .card:hover {
   border-color: #ff99ff;
@@ -142,6 +147,12 @@ footer ul li {
   display: inline-block;
 }
 
+h2 {
+  text-transform: uppercase;
+  background-color: rgba(153, 153, 153, 0.199);
+  font-size: 55px;
+  
+}
 a.social {
   display: inline-block;
   text-indent: -9999px;
@@ -166,6 +177,12 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+.pWrapper {
+  background-color: rgba(153, 153, 153, 0.199);
+  padding: 5px;
+
 }
 
 /* Styles for larger screens */
