@@ -140,7 +140,9 @@ footer .copyright {
   font-size: .75em;
   color: white;
 }
-
+.experience {
+  text-align: justify;
+}
 footer ul {
   list-style-type: none;
   margin: 0;
